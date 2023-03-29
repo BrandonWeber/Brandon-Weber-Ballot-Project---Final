@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6CC436529D4B3E900092EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CC436429D4B3E900092EE2 /* AppDelegate.swift */; };
+		C6CC436729D4B3E900092EE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CC436629D4B3E900092EE2 /* SceneDelegate.swift */; };
+		C6CC436929D4B3E900092EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CC436829D4B3E900092EE2 /* ViewController.swift */; };
+		C6CC436C29D4B3E900092EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CC436A29D4B3E900092EE2 /* Main.storyboard */; };
+		C6CC436E29D4B3EA00092EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6CC436D29D4B3EA00092EE2 /* Assets.xcassets */; };
+		C6CC437129D4B3EA00092EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CC436F29D4B3EA00092EE2 /* LaunchScreen.storyboard */; };
+		C6CC437C29D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CC437B29D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectTests.swift */; };
+		C6CC438629D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CC438529D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectUITests.swift */; };
+		C6CC438829D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CC438729D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6CC437829D4B3EA00092EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6CC435929D4B3E900092EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6CC436029D4B3E900092EE2;
+			remoteInfo = "Brandon Weber Ballot Project";
+		};
+		C6CC438229D4B3EA00092EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6CC435929D4B3E900092EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6CC436029D4B3E900092EE2;
+			remoteInfo = "Brandon Weber Ballot Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6CC436129D4B3E900092EE2 /* Brandon Weber Ballot Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brandon Weber Ballot Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CC436429D4B3E900092EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6CC436629D4B3E900092EE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6CC436829D4B3E900092EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6CC436B29D4B3E900092EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6CC436D29D4B3EA00092EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6CC437029D4B3EA00092EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6CC437229D4B3EA00092EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6CC437729D4B3EA00092EE2 /* Brandon Weber Ballot ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brandon Weber Ballot ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CC437B29D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brandon_Weber_Ballot_ProjectTests.swift; sourceTree = "<group>"; };
+		C6CC438129D4B3EA00092EE2 /* Brandon Weber Ballot ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brandon Weber Ballot ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CC438529D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brandon_Weber_Ballot_ProjectUITests.swift; sourceTree = "<group>"; };
+		C6CC438729D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brandon_Weber_Ballot_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6CC435E29D4B3E900092EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CC437429D4B3EA00092EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CC437E29D4B3EA00092EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6CC435829D4B3E900092EE2 = {
+			isa = PBXGroup;
+			children = (
+				C6CC436329D4B3E900092EE2 /* Brandon Weber Ballot Project */,
+				C6CC437A29D4B3EA00092EE2 /* Brandon Weber Ballot ProjectTests */,
+				C6CC438429D4B3EA00092EE2 /* Brandon Weber Ballot ProjectUITests */,
+				C6CC436229D4B3E900092EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6CC436229D4B3E900092EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6CC436129D4B3E900092EE2 /* Brandon Weber Ballot Project.app */,
+				C6CC437729D4B3EA00092EE2 /* Brandon Weber Ballot ProjectTests.xctest */,
+				C6CC438129D4B3EA00092EE2 /* Brandon Weber Ballot ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6CC436329D4B3E900092EE2 /* Brandon Weber Ballot Project */ = {
+			isa = PBXGroup;
+			children = (
+				C6CC436429D4B3E900092EE2 /* AppDelegate.swift */,
+				C6CC436629D4B3E900092EE2 /* SceneDelegate.swift */,
+				C6CC436829D4B3E900092EE2 /* ViewController.swift */,
+				C6CC436A29D4B3E900092EE2 /* Main.storyboard */,
+				C6CC436D29D4B3EA00092EE2 /* Assets.xcassets */,
+				C6CC436F29D4B3EA00092EE2 /* LaunchScreen.storyboard */,
+				C6CC437229D4B3EA00092EE2 /* Info.plist */,
+			);
+			path = "Brandon Weber Ballot Project";
+			sourceTree = "<group>";
+		};
+		C6CC437A29D4B3EA00092EE2 /* Brandon Weber Ballot ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6CC437B29D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectTests.swift */,
+			);
+			path = "Brandon Weber Ballot ProjectTests";
+			sourceTree = "<group>";
+		};
+		C6CC438429D4B3EA00092EE2 /* Brandon Weber Ballot ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6CC438529D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectUITests.swift */,
+				C6CC438729D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "Brandon Weber Ballot ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6CC436029D4B3E900092EE2 /* Brandon Weber Ballot Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CC438B29D4B3EA00092EE2 /* Build configuration list for PBXNativeTarget "Brandon Weber Ballot Project" */;
+			buildPhases = (
+				C6CC435D29D4B3E900092EE2 /* Sources */,
+				C6CC435E29D4B3E900092EE2 /* Frameworks */,
+				C6CC435F29D4B3E900092EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brandon Weber Ballot Project";
+			productName = "Brandon Weber Ballot Project";
+			productReference = C6CC436129D4B3E900092EE2 /* Brandon Weber Ballot Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6CC437629D4B3EA00092EE2 /* Brandon Weber Ballot ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CC438E29D4B3EA00092EE2 /* Build configuration list for PBXNativeTarget "Brandon Weber Ballot ProjectTests" */;
+			buildPhases = (
+				C6CC437329D4B3EA00092EE2 /* Sources */,
+				C6CC437429D4B3EA00092EE2 /* Frameworks */,
+				C6CC437529D4B3EA00092EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6CC437929D4B3EA00092EE2 /* PBXTargetDependency */,
+			);
+			name = "Brandon Weber Ballot ProjectTests";
+			productName = "Brandon Weber Ballot ProjectTests";
+			productReference = C6CC437729D4B3EA00092EE2 /* Brandon Weber Ballot ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6CC438029D4B3EA00092EE2 /* Brandon Weber Ballot ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CC439129D4B3EA00092EE2 /* Build configuration list for PBXNativeTarget "Brandon Weber Ballot ProjectUITests" */;
+			buildPhases = (
+				C6CC437D29D4B3EA00092EE2 /* Sources */,
+				C6CC437E29D4B3EA00092EE2 /* Frameworks */,
+				C6CC437F29D4B3EA00092EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6CC438329D4B3EA00092EE2 /* PBXTargetDependency */,
+			);
+			name = "Brandon Weber Ballot ProjectUITests";
+			productName = "Brandon Weber Ballot ProjectUITests";
+			productReference = C6CC438129D4B3EA00092EE2 /* Brandon Weber Ballot ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6CC435929D4B3E900092EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C6CC436029D4B3E900092EE2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C6CC437629D4B3EA00092EE2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C6CC436029D4B3E900092EE2;
+					};
+					C6CC438029D4B3EA00092EE2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C6CC436029D4B3E900092EE2;
+					};
+				};
+			};
+			buildConfigurationList = C6CC435C29D4B3E900092EE2 /* Build configuration list for PBXProject "Brandon Weber Ballot Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6CC435829D4B3E900092EE2;
+			productRefGroup = C6CC436229D4B3E900092EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6CC436029D4B3E900092EE2 /* Brandon Weber Ballot Project */,
+				C6CC437629D4B3EA00092EE2 /* Brandon Weber Ballot ProjectTests */,
+				C6CC438029D4B3EA00092EE2 /* Brandon Weber Ballot ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6CC435F29D4B3E900092EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CC437129D4B3EA00092EE2 /* LaunchScreen.storyboard in Resources */,
+				C6CC436E29D4B3EA00092EE2 /* Assets.xcassets in Resources */,
+				C6CC436C29D4B3E900092EE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CC437529D4B3EA00092EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CC437F29D4B3EA00092EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6CC435D29D4B3E900092EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CC436929D4B3E900092EE2 /* ViewController.swift in Sources */,
+				C6CC436529D4B3E900092EE2 /* AppDelegate.swift in Sources */,
+				C6CC436729D4B3E900092EE2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CC437329D4B3EA00092EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CC437C29D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CC437D29D4B3EA00092EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CC438629D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectUITests.swift in Sources */,
+				C6CC438829D4B3EA00092EE2 /* Brandon_Weber_Ballot_ProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6CC437929D4B3EA00092EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6CC436029D4B3E900092EE2 /* Brandon Weber Ballot Project */;
+			targetProxy = C6CC437829D4B3EA00092EE2 /* PBXContainerItemProxy */;
+		};
+		C6CC438329D4B3EA00092EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6CC436029D4B3E900092EE2 /* Brandon Weber Ballot Project */;
+			targetProxy = C6CC438229D4B3EA00092EE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6CC436A29D4B3E900092EE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6CC436B29D4B3E900092EE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6CC436F29D4B3EA00092EE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6CC437029D4B3EA00092EE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6CC438929D4B3EA00092EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6CC438A29D4B3EA00092EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6CC438C29D4B3EA00092EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3X3CM5566;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Brandon Weber Ballot Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Weber.Brandon-Weber-Ballot-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6CC438D29D4B3EA00092EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3X3CM5566;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Brandon Weber Ballot Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Weber.Brandon-Weber-Ballot-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6CC438F29D4B3EA00092EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3X3CM5566;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Weber.Brandon-Weber-Ballot-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brandon Weber Ballot Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Brandon Weber Ballot Project";
+			};
+			name = Debug;
+		};
+		C6CC439029D4B3EA00092EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3X3CM5566;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Weber.Brandon-Weber-Ballot-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brandon Weber Ballot Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Brandon Weber Ballot Project";
+			};
+			name = Release;
+		};
+		C6CC439229D4B3EA00092EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3X3CM5566;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Weber.Brandon-Weber-Ballot-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brandon Weber Ballot Project";
+			};
+			name = Debug;
+		};
+		C6CC439329D4B3EA00092EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3X3CM5566;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Weber.Brandon-Weber-Ballot-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brandon Weber Ballot Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6CC435C29D4B3E900092EE2 /* Build configuration list for PBXProject "Brandon Weber Ballot Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CC438929D4B3EA00092EE2 /* Debug */,
+				C6CC438A29D4B3EA00092EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CC438B29D4B3EA00092EE2 /* Build configuration list for PBXNativeTarget "Brandon Weber Ballot Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CC438C29D4B3EA00092EE2 /* Debug */,
+				C6CC438D29D4B3EA00092EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CC438E29D4B3EA00092EE2 /* Build configuration list for PBXNativeTarget "Brandon Weber Ballot ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CC438F29D4B3EA00092EE2 /* Debug */,
+				C6CC439029D4B3EA00092EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CC439129D4B3EA00092EE2 /* Build configuration list for PBXNativeTarget "Brandon Weber Ballot ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CC439229D4B3EA00092EE2 /* Debug */,
+				C6CC439329D4B3EA00092EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6CC435929D4B3E900092EE2 /* Project object */;
+}
