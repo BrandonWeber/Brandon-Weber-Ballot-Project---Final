@@ -18,6 +18,7 @@ class VoteViewController: UIViewController{
 
     @IBAction func countryButton(_ sender: Any) {
         countryVotes += 1
+      
     }
     
     
@@ -38,9 +39,47 @@ class VoteViewController: UIViewController{
 //winner message to display highest count
 class ResultsViewController: UIViewController{
     
+    @IBOutlet var countryLabel: UILabel!
+    @IBAction func CountryButton(_ sender: Any) {
+        countryLabel.text = "Country Votes \(countryVotes)"
+    }
     
     
-}
+    
+    @IBOutlet var rapLabel: UILabel!
+    @IBAction func RapButton(_ sender: Any) {
+        rapLabel.text = "Rap Votes: \(rapVotes)"
+    }
+    
+    
+    @IBOutlet var RockLabel: UILabel!
+    @IBAction func RockButton(_ sender: Any) {
+        RockLabel.text = "Rock Votes: \(rockVotes)"
+    }
+    
+    
+    @IBOutlet var winnerLabel: UILabel!
+    @IBAction func winnerButton(_ sender: Any) {
+        
+            if countryVotes > rapVotes && countryVotes > rockVotes {
+                winnerLabel.text = "Country Wins!"
+            }
+            
+            if rapVotes > countryVotes && rapVotes > rockVotes {
+                winnerLabel.text = "Rap Wins!"
+            }
+            
+            
+            if rockVotes > countryVotes && rockVotes > rapVotes{
+                winnerLabel.text = "Rock Wins!"
+            }
+        }
+    }
+    
+
+
+    
+
     
     
 
